@@ -3,6 +3,7 @@ Application for communication with chat via Galaxy Wearable Devices like Samsung
 
 ### Examples
 ![Examples](https://raw.githubusercontent.com/Roqvie/Twitch-Chat-for-IRL/main/examples/1.png)
+![Examples](https://raw.githubusercontent.com/Roqvie/Twitch-Chat-for-IRL/main/examples/watch.png)
 
 ### Install
 + Download and Install Tizen Studio.
@@ -24,3 +25,4 @@ Application for communication with chat via Galaxy Wearable Devices like Samsung
 ### Contacts
 email: roqvieee@gmail.com
 telegram: t.me/ROQVIE
+
