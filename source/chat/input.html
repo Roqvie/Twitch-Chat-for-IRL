@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+	<link href="../../lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
+	<link href="../../lib/tau/wearable/theme/default/tau.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+	<link href="../../css/style.css" rel="stylesheet" />
+	<link href="../../css/style.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+	<script src="../../js/circle-helper.js">
+	</script>
+	<script src="../../lib/tau/wearable/js/tau.js">
+	</script>
+</head>
+
+<body>
+	<div class="ui-page" id="page-text-input">
+		
+		<header class="ui-header">
+			<h4 class="ui-title">
+				Twitch Chat
+			</h4>
+		</header>
+		
+		<div class="ui-content text-input-content">
+			<input id="channel" name="channel" placeholder="Channel" type="text" />
+			<div id="prev">
+				<p>History:</p>
+			</div>
+		</div>
+		
+		<footer class="ui-footer ui-bottom-button">
+			<button class="ui-btn">
+				CONNECT
+			</button>
+		</footer>
+		
+		<script src="input.js">
+		</script>
+	</div>
+	
+	<script src="../../js/app.js">
+	</script>
+	<script src="../../js/lowBatteryCheck.js">
+	</script>
+</body>
+
+</html>

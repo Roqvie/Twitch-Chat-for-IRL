@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/TwitchLiveChat" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="pKNDZtEVQ0.TwitchLiveChat" package="pKNDZtEVQ0" required_version="2.3.2"/>
+    <author email="roqvieee@gmail.com">Roqvie</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <feature name="http://tizen.org/feature/network.wifi"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.360.360"/>
+    <feature name="http://tizen.org/feature/web.service"/>
+    <icon src="icon.png"/>
+    <name>Twitch Chat for IRL</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/notification"/>
+    <tizen:profile name="wearable"/>
+</widget>
